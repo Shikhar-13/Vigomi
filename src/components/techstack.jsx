@@ -1,5 +1,6 @@
 // src/IconGrid.jsx
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const icons = [
     { src: "./assets/html.svg", alt: "HTML5" },
@@ -18,18 +19,83 @@ const icons = [
     { src: "./assets/techstack-adobeindesign.svg", alt: "Django" },
     { src: "./assets/techstack-adobephotoshop.svg", alt: "AWS" },
     { src: "./assets/techstack-adobexd.svg", alt: "GCP" },
-    { src: "./assets/techstack-canva.svg", alt: "Azure" },
 ];
 
 const IconGrid = () => {
     return (
-        <div className="container mx-auto p-4">
-            <div className=" grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
-                {icons.map((icon, index) => (
-                    <img key={index} src={icon.src} alt={icon.alt} className="icon" />
-                ))}
+        <div className='container mx-auto bg-black'>
+            <div className=''>
+                <h2 className='absolute  mt-10 right-20 pt-96 md:pt-80 text-4xl md:text-8xl text-white font-raleway italic'>Techstack</h2>
             </div>
+            <div className="container mx-auto w-full overflow-hidden h-[540px]">
+                <div>
+                    <div className="overflow-hidden flex origin-left -rotate-[20deg] bg-gradient-to-r from-blue-900 via-fuchsia-700 to-yellow-200 translate-y-96 -mx-44">
+                        <motion.div
+                            className="flex flex-shrink-0"
+                            initial={{ x: 0 }}
+                            animate={{ x: '-100%' }}
+                            transition={{
+                                repeat: Infinity,
+                                ease: 'linear',
+                                duration: 30
+                            }}
+                        >
+                            {icons.map((icon, index) => (
+                                <img key={index} src={icon.src} alt={icon.alt} className="size-24 md:size-36 p-4 " />
+                            ))}
+                        </motion.div>
+                        <motion.div
+                            className="flex flex-shrink-0"
+                            initial={{ x: 0 }}
+                            animate={{ x: '-100%' }}
+                            transition={{
+                                repeat: Infinity,
+                                ease: 'linear',
+                                duration: 30
+                            }}
+
+                        >
+                            {icons.map((icon, index) => (
+                                <img key={index} src={icon.src} alt={icon.alt} className="size-24 md:size-36 p-4  " />
+                            ))}
+                        </motion.div>
+                    </div>
+                    <div className="overflow-hidden flex origin-left -rotate-[40deg] translate-y-96 bg-slate-50 -mx-56">
+                        <motion.div
+                            className="flex flex-shrink-0"
+                            initial={{ x: '-100%' }}
+                            animate={{ x: 0 }}
+                            transition={{
+                                repeat: Infinity,
+                                ease: 'linear',
+                                duration: 30
+                            }}
+                        >
+                            {icons.map((icon, index) => (
+                                <img key={index} src={icon.src} alt={icon.alt} className="size-24 md:size-36 p-4  " />
+                            ))}
+                        </motion.div>
+                        <motion.div
+                            className="flex flex-shrink-0"
+                            initial={{ x: '-100%' }}
+                            animate={{ x: 0 }}
+                            transition={{
+                                repeat: Infinity,
+                                ease: 'linear',
+                                duration: 30
+                            }}
+
+                        >
+                            {icons.map((icon, index) => (
+                                <img key={index} src={icon.src} alt={icon.alt} className="size-24 md:size-36 p-4 " />
+                            ))}
+                        </motion.div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
     );
 }
 

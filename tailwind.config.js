@@ -7,6 +7,7 @@ export default {
     extend: {
       fontFamily: {
         montserrat: ['Montserrat', 'alternate'],
+        raleway : ['Raleway','sans-serif'],
       },
     },
     screens: {

@@ -4,10 +4,8 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const NavLinks = [
     "Home",
-    "Market",
-    "Explore",
-    "Exhibition",
-    "Artists & Collectors",
+    "Services",
+    "About",
 ];
 
 const Navbar = () => {
@@ -18,7 +16,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="p-4 bg-slate-900 text-white">
+        <nav className="p-4 bg-neutral-900 text-white">
             <div className="container mx-auto max-w-screen-xl relative">
                 <div className="flex justify-between items-center text-white">
                     {/* Logo */}
@@ -40,9 +38,12 @@ const Navbar = () => {
                             </a>
                         ))}
 
-                        <button className="px-5 rounded font-medium border-indigo-600 py-2 bg-indigo-600 hover:bg-indigo-700 hover:border-indigo-700">
-                            Connect Wallet
-                        </button>
+<button 
+      
+      
+      className=" group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-10 w-32 border text-center  text-gray-50 text-2xl font-raleway rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg ">
+  connect
+</button>
                     </div>
 
                     {/* Hamburger menu for small screens */}
