@@ -8,6 +8,7 @@ export default {
       fontFamily: {
         montserrat: ['Montserrat', 'alternate'],
         raleway : ['Raleway','sans-serif'],
+        custom: ['MyCustomFont', 'sans-serif']
       },
     },
     screens: {

@@ -9,7 +9,7 @@ export default function Cards() {
             <section className='h-fit md:h-screen w-full bg-black '>
             {/* <div className=' absolute container mx-[20%] my-[25%] md:h-44 rounded-lg w-[60%]  align-middle justify-center bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500'></div> */}
             
-                <div className=' grid grid-rows-3 pb-4 md:pb-10 gap-0 px-4  md:grid md:grid-cols-3 md:gap-8 md:-mt-24'>
+                <div className=' grid grid-rows-3 pb-4 md:pb-10 gap-0 px-4  md:grid md:grid-cols-3 md:gap-8 md:-mt-24 overflow-hidden'>
 
                     <motion.div initial={{
                         opacity: 0, y: 200

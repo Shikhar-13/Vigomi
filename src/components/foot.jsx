@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import TermsAndConditions from '../pages/TnC'
 export default function Foot() {
   return (
 
@@ -41,12 +42,12 @@ export default function Foot() {
           </li>
 
           <li>
-            <a
+            <Link to="/tnc"
               class="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-              href="#"
+              
             >
               Blog
-            </a>
+            </Link>
           </li>
         </ul>
 

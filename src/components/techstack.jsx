@@ -25,7 +25,7 @@ const IconGrid = () => {
     return (
         <div className='container mx-auto bg-black'>
             <div className=''>
-                <h2 className='absolute  mt-10 right-20 pt-96 md:pt-80 text-4xl md:text-8xl text-white font-raleway italic'>Techstack</h2>
+                <h2 className='absolute  mt-10 right-20 pt-96 md:pt-80 text-4xl md:text-8xl text-white font-raleway '>Techstack</h2>
             </div>
             <div className="container mx-auto w-full overflow-hidden h-[540px]">
                 <div>

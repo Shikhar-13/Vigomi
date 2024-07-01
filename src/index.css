@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face{
+  font-family: 'MyCustomFont';
+  src: url('/fonts/Melodrama-Variable.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
     font-family: 'Montserrat', alternate;
@@ -28,4 +34,5 @@ body {
       #62c2fe 100%
     );
   }
+  
   
