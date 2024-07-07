@@ -61,7 +61,7 @@ export default function Aproach() {
                 </motion.svg>
                 
 
-                <h2 className="mb-20 font-raleway text-5xl sm:text-7xl text-white text-center">how we work.</h2>
+                <h2 className="mb-20 font-raleway text-5xl sm:text-7xl text-white text-center">how we work. </h2>
                 <div className="flex flex-wrap items-center justify-center">
                     
                     <div className="w-full md:w-1/3 p-4">
