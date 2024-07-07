@@ -31,8 +31,8 @@ export default function Form() {
     <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-lg text-center">
         <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
-        <p className="mt-4 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et libero nulla eaque error neque ipsa culpa autem, at itaque nostrum!
+        <p className="mt-2 text-gray-500 text-sm">
+        Transform your business with our top-tier digital solutions: web and app development, social media management, and video editing. Elevate your online presence and achieve your goals—contact us now!
         </p>
       </div>
 

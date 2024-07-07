@@ -8,31 +8,24 @@ import IconGrid from './components/techstack'
 import Topdown from './components/topdown'
 
 import AdMarquee from './components/adMarquee'
-
+import { Outlet } from 'react-router-dom'
 import Foot from './components/foot'
+import Home from './pages/Home'
+import TermsAndConditions from './pages/TnC'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
 
   return (
     <>
-    <Navbar />
-    <Front />
-    <AdMarquee/>
-    
-      {/* Add more content to see the scrolling effect */}
-      
-    <Cards />
-    
-    {/* <Front />  */}
-    {/* <Spline scene="https://prod.spline.design/G3XyWtyW-2xuJbsq/scene.splinecode" /> */}
-    <Services />
-    {/* <Links /> */}
-    
-    <Topdown />
-    <IconGrid />
-    <Foot />
-
-
-    
+    <Router>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/tnc" element={<TermsAndConditions />} />
+                {/* Other routes */}
+            </Routes>
+        </Router>
+   
     </>
   )
 }

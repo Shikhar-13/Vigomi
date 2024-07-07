@@ -40,7 +40,7 @@ export default function Cards() {
                         transition={{ duration: 1 }}
                     >
                         <div className=' container h-72 w-80 bg-gradient-to-tl from-zinc-700 via-black  to-black text-slate-50 backdrop-blur-md p-7 md:h-80 md:w-96  border-2 border-slate-950 rounded-md  mt-36'>
-                            <h2 className='mx-auto align-middle md:pt-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti itaque dolores recusandae dicta laudantium temporibus, unde, neque vel perspiciatis ab cum? Magni architecto impedit ipsam numquam culpa ab quas explicabo?</h2>
+                            <h2 className='mx-auto align-middle md:pt-10'>We prioritize customer satisfaction and quality in every project. Our team of experts is dedicated to delivering solutions that meet your unique needs and exceed expectations. Partner with us to experience the difference.</h2>
                         </div>
                     </motion.div>
                     </div>
